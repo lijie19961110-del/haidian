@@ -1,0 +1,131 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "任务书、枚举、标准、范围和 schema。"
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "资料可用性与禁止用途。"
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "导航层，不作为新增权威来源。"
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "临时生成与 intake 可视化；不得作为官方红线。"
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "三重点区临时边界；不得精确评分。"
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "项目、三层范围约面积、任务和成果语境。"
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "六项 Agent 任务、场景、品牌、运营和边界条款。"
+    },
+    {
+      "id": "CASE-KENDALL",
+      "title": "Kendall Square Plan",
+      "publisher": "City of Cambridge",
+      "url": "https://www.cambridgema.gov/-/media/Files/CDD/Planning/Studies/K2C2/pb/k2c2_kendall_20120806_pb.pdf",
+      "accessed_date": "2026-08-08",
+      "authority_level": "official_city_background",
+      "usable_for": [
+        "innovation-community and mixed-use mechanism comparison"
+      ],
+      "not_usable_for": [
+        "project boundary or controls"
+      ]
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "title": "One-North",
+      "publisher": "JTC Singapore",
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/one-north?estate=one-north",
+      "accessed_date": "2026-08-08",
+      "authority_level": "official_agency_background",
+      "usable_for": [
+        "work-live-play-learn and living-lab comparison"
+      ],
+      "not_usable_for": [
+        "project boundary or controls"
+      ]
+    },
+    {
+      "id": "CASE-STATION-F",
+      "title": "STATION F In-house programs",
+      "publisher": "STATION F",
+      "url": "https://faq.stationf.co/hc/en-us/articles/14706543850130-STATION-F-In-house-programs",
+      "accessed_date": "2026-08-08",
+      "authority_level": "operator_background",
+      "usable_for": [
+        "program-based campus operation comparison"
+      ],
+      "not_usable_for": [
+        "public policy or spatial control"
+      ]
+    },
+    {
+      "id": "CASE-MARIA01",
+      "title": "Maria 01 Campus",
+      "publisher": "Maria 01",
+      "url": "https://maria.io/campus/",
+      "accessed_date": "2026-08-08",
+      "authority_level": "operator_background",
+      "usable_for": [
+        "adaptive reuse and ecosystem gathering comparison"
+      ],
+      "not_usable_for": [
+        "project control"
+      ]
+    },
+    {
+      "id": "CASE-SEOUL-DMC",
+      "title": "Seoul DMC Support Ordinance",
+      "publisher": "Seoul Metropolitan Government",
+      "url": "https://legal.seoul.go.kr/legal/english/front/page/law.html?pAct=lawView&pPromNo=3953",
+      "accessed_date": "2026-08-08",
+      "authority_level": "official_city_background",
+      "usable_for": [
+        "media street and governance mechanism comparison"
+      ],
+      "not_usable_for": [
+        "project approval"
+      ]
+    },
+    {
+      "id": "CASE-22BARCELONA",
+      "title": "Barcelona Innova Lab and 22@ Office",
+      "publisher": "Barcelona City Council",
+      "url": "https://ajuntament.barcelona.cat/imi/sites/default/files/2024-01/relat_scewc_2023_eng.pdf",
+      "accessed_date": "2026-08-08",
+      "authority_level": "official_city_background",
+      "usable_for": [
+        "real-life public-interest testing and one-stop governance comparison"
+      ],
+      "not_usable_for": [
+        "project boundary or statutory control"
+      ]
+    }
+  ]
+}

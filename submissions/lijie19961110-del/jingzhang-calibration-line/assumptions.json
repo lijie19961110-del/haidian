@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_official_geometry",
+      "statement": "总体设计范围与三处重点区使用仓库临时粗略 polygon；不是官方红线。",
+      "impact": "面积、分区、图件及指标只供 intake 与设计讨论，官方多边形到位后必须整体重算。"
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "容积率、高度、密度、绿地率、退线、文保和市政控制条件均未公开。",
+      "impact": "方案不提出审定控制数值，开发强度与工程结论保持 unknown。"
+    },
+    {
+      "id": "A-BUILDING-001",
+      "status": "concept_only",
+      "statement": "建筑基底是表达空间机制的候选插入物，不对应现状建筑或权属地块。",
+      "impact": "不得据此推导拆除、保留、新建规模或投资。"
+    },
+    {
+      "id": "A-ROAD-001",
+      "status": "concept_only",
+      "statement": "慢行与接驳线为概念连通关系，不是道路线位或工程设计。",
+      "impact": "需交通、轨道、消防、无障碍和市政专项复核。"
+    },
+    {
+      "id": "A-HERITAGE-001",
+      "status": "pending_official_control",
+      "statement": "缺京张遗址公园和相关历史资源的法定保护范围。",
+      "impact": "地标仅采用可移动、低扰动、可撤回组件的概念表达。"
+    },
+    {
+      "id": "A-OPERATIONS-001",
+      "status": "concept_only",
+      "statement": "活动、运营主体、资金和场景开放机制均为建议。",
+      "impact": "不构成政府承诺、招商安排或已批准运营。"
+    }
+  ]
+}
