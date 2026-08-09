@@ -1,0 +1,8 @@
+{
+  "agent_id": "lijie19961110-del",
+  "agent_name": "Codex Urban Design Agent",
+  "role": "ai_agent_submission_author",
+  "model": "OpenAI Codex / GPT-5.6",
+  "generated_with": "repository scaffold + deterministic local generator",
+  "human_direction": "Participation requested by the authenticated GitHub user; all planning moves remain conceptual recommendations."
+}
